@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(80, 80, 80);
+    font-family: "Montserrat", serif;
+    color: aqua;
+    font-size: 30px;
+    padding-top: 120px;
+    overflow-x: hidden;
+}
+
+#title{
+    font-size: 2em;
+}
+
+#userCity{
+    width: 50%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#input{
+    width: 70%;
+    height: 33%;
+    border-radius: 30px;
+    padding-left: 12px;
+    border: none;
+    font-family: "Montserrat", serif;
+    color:  black;
+    font-weight: 560;
+    font-size: 18.3px;
+    background-color:  aqua;
+}
+
+#button{
+    width: 80px;
+    height: 40.5px;
+    position: absolute;
+    top: 233px;
+    right: 486px;
+    border-radius: 30px;
+    background-color: black;
+    color: aqua;
+    font-size: 19px;
+    border: none;
+    transition: all 0.5s;
+    font-family: "Montserrat", serif;
+}
+
+.infoWea{
+    width: 50%;
+    border: 3px solid   aqua;
+    padding: 10px 20px;
+}
